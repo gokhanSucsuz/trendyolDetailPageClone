@@ -6,21 +6,46 @@ body{
     border:none;
 }
 
-.container{
+.container-right{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     width: 1200px;
     margin:0 auto;
 }
+.container{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin:0 auto;
+}
+.nav-right{
+    margin-top:10px;
+}
+.nav-right a{
+    text-decoration: none;
+    color:rgb(214, 211, 211);
+    margin-left:10px;
+    font-size: 14px;
+}
 .nav{
     display: flex;
-}
-.nav .right{
-    margin-left:auto;
+    justify-content: space-between;
+    align-items: center;
     
 }
-.nav .left{
-    margin-right:auto;
+.nav div{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
 }
-
+.nav img{
+    margin-right: 150px;
+    width: 180px;
+}
+.nav input{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
