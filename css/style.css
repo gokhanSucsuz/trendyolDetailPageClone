@@ -1,93 +1,240 @@
-body{
+body {
     padding: 0;
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
-    border:none;
+    font-family:  Arial, Helvetica, sans-serif;
+    border: none;
 }
 
-.container-right{
+.container-right {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-.container{
+
+.container {
     display: flex;
     align-items: center;
     width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
-.nav-right{
-    margin-top:10px;
+.nav-right {
+    margin-top: 5px;
     display: flex;
+    margin-bottom: -15px;
 
 }
-.nav-right a{
+
+.nav-right a {
     text-decoration: none;
-    color:rgb(201, 196, 196);
-    margin-left:10px;
-    font-size: 14px;
+    color: rgb(201, 196, 196);
+    margin-left: 10px;
+    font-size: 12px;
 }
-.nav{
+
+.nav {
     display: flex;
-    
+
 }
-.nav div{
+
+.nav div {
     display: flex;
     align-items: center;
     margin-left: 10px;
 
 }
-.nav img{
-    margin-right: 150px;
-    width: 180px;
+
+.nav img {
+    margin-right: 80px;
+    width: 150px;
 }
-.nav input{
-    width: 400px;
-    height: 30px;
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    border: none;
+    transition: 0.5s;
+    outline: none;
+    width: 600px;
+    height: 40px;
     border-radius: 5px;
 }
-.iconmenu{
-    color:black!important;
-    
-}
-.nav-right i{
-    margin-left: 15px!important;
+
+input[type=text]:focus {
+    border: 3px solid orange;
+    background-color: white !important;
 }
 
-.fa-search{
+.iconmenu {
+    color: black !important;
+
+}
+
+.nav-right i {
+    margin-left: 15px !important;
+}
+
+.fa-search {
     position: relative;
     color: orange;
-    left:-30px;
+    left: -30px;
 }
-.nav div > .ara{
-    border-color: azure;
-    border:solid;
+
+.nav div>.ara {
+    background-color: rgb(240, 242, 242);
 }
-.nav div >.ara:active{
+
+.nav div>.ara:active {
     border-style: solid;
-    border-color: orange!important;
+    border-color: orange !important;
 }
-.container ul{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    list-style: none;
-}
-.container ul li{
 
-    width: auto;
-    list-style: none;
+.line {
+    width: 100%;
+    border-bottom: 2px solid rgb(239, 236, 236);
+    margin-top: 10px;
 }
-.container ul li a{
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.dropdown a {
     text-decoration: none;
-    margin-left:10px;
-    
+    color: black;
+    margin-left: 10px;
+    font-size: 12px;
 }
-.dropdown{
-    display: flex;
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 1075px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .2);
+    z-index: 1px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 12px;
+    margin-left:3px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: orange;
+}
+
+.dropdown:hover span {
+    background-color: orange;
+}
+
+.dropbtn > span{
+    background-color: red;
+    border-radius: 15px;
+    padding: 0 3px;
+    color:white;
+}
+
+.container .kutu{
+    border:2px solid #e3e1e1;
+    border-radius: 10px;
+    width: 1000px;
+    height: 750px;
+    margin: 20px 10px;
+}
+
+.breadcrumb a{
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: rgb(85, 84, 84);
+}
+
+.breadcrumb a span{
+    margin:0 2px;
+    color: orange;
+    font-weight: bold;
+}
+
+.kutu .kutu-small{
+    position: relative;
+    border:2px solid #e3e1e1;
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    margin: 20px 20px;
+}
+.kutu-small div{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+    left: 5px;
+    width: 80px;
+    height: 25px;
+    background-color: rgb(59, 58, 58);
+    color:white;
+    border-radius: 5px;
+}
+.kutu-small #kargo p{
+    position: absolute;
+    font-size: 8px;
+    width:20px;
+    margin:0 5px;
+    left: 35px;
+}
+.kutu-small #teslimat p{
+    position: absolute;
+    font-size: 8px;
+    width:20px;
+    margin:0 5px;
+    left: 35px;
+}
+
+.kutu-small div i{
+    margin-left:4px;
+}
+
+#teslimat{
+    background-color: rgb(49, 197, 49);
+}
+.kutu-small img{
+    position: absolute;
+    width: 399px;
+    object-fit: cover;
+    height: 300px;
+    top:140px;
+    left:0px;
+}
+
+.kutucuk{
+    display: flex;
+    height: 80px;
+    width: 35px;
+    margin:0 auto;
+}
+
+.kutucuk img{
+    display: flex;
+    justify-content: space-between;
+    
+    object-fit: scale-down;
 }
