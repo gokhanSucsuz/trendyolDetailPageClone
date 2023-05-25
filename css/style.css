@@ -175,7 +175,7 @@ input[type=text]:focus {
     font-weight: bold;
 }
 
-.kutu .kutu-small{
+.kutu .small{
     position: relative;
     border:2px solid #e3e1e1;
     border-radius: 10px;
@@ -183,7 +183,7 @@ input[type=text]:focus {
     height: 600px;
     margin: 20px 20px;
 }
-.kutu-small div{
+.small div{
     display: flex;
     align-items: center;
     margin: 10px 10px;
@@ -194,14 +194,14 @@ input[type=text]:focus {
     color:white;
     border-radius: 5px;
 }
-.kutu-small #kargo p{
+.small #kargo p{
     position: absolute;
     font-size: 8px;
     width:20px;
     margin:0 5px;
     left: 35px;
 }
-.kutu-small #teslimat p{
+.small #teslimat p{
     position: absolute;
     font-size: 8px;
     width:20px;
@@ -209,14 +209,14 @@ input[type=text]:focus {
     left: 35px;
 }
 
-.kutu-small div i{
+.small div i{
     margin-left:4px;
 }
 
 #teslimat{
     background-color: rgb(49, 197, 49);
 }
-.kutu-small img{
+.small img{
     position: absolute;
     width: 399px;
     object-fit: cover;
@@ -227,14 +227,91 @@ input[type=text]:focus {
 
 .kutucuk{
     display: flex;
-    height: 80px;
-    width: 35px;
+    height: 60px;
+    width: 40px;
     margin:0 auto;
+    border: 1.5px solid rgb(224, 220, 220);
+    margin-left: 10px;
+    border-radius: 8px;
+
 }
 
-.kutucuk img{
+.kutucuk {
     display: flex;
-    justify-content: space-between;
+    width: 40px;
+}
+.kutu{
+    display: flex;
+}
+
+.mini{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:15px;
+    width: 400px;
+}
+.property{
+    font-size: 18px;
+    width: 555px;
+    height: 750px;
     
-    object-fit: scale-down;
+}
+.property .urun> span, .urun> i{
+
+    font-size: 12px;
+}
+.fa-clock-rotate-left{
+    color:red;
+}
+.property .urun span{
+    color:red!important;
+    font-size: 14px;
+} 
+.firma{
+    font-size: 10px;
+    margin-left:25px;
+}
+.firma span{
+    color:rgb(73, 148, 246);
+}
+.review{
+    font-size: 12px;
+    margin-left: 20px;
+    color: rgb(130, 128, 128);
+}
+.review .fa-star{
+    color: rgb(254, 194, 83);
+}
+.banka-taksit{
+    background-color: rgb(249, 233, 233);
+    color: rgb(243, 81, 41);
+    font-size: 12px;
+    margin-left: 30px;
+    display: block;
+    width:242px;
+    padding:2px;
+    border-radius: 5px;
+}
+.price{
+    color:rgb(248, 119, 5);
+    margin-left:20px;
+    font-size: 22px;
+}
+.bookmark{
+    display:flex;
+    justify-content: right;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.bookmark .fa-bookmark{
+    color:rgb(248, 119, 5);
+    margin-right: 4px;
+}
+.property .line{
+    width: 98%;
+    border-bottom: 2px solid rgb(239, 236, 236);
+    margin-top: 10px;
+}
+.kutu .right-bar{
+    height: 100px;
 }
