@@ -355,3 +355,66 @@ input[type=text]:focus {
     height: 40px;
 
 }
+
+.magaza-bilgi .magaza-adi{
+    display: inline-block;
+    width: max-content;
+    color:rgb(46, 166, 247);
+}
+.magaza-adi span{
+    color:white;
+    background-color: rgb(108, 206, 10);
+    padding:0px 3px;
+    border-radius: 5px;
+}
+.fa-circle-info{
+    color:orange;
+}
+.magaza-ozellik{
+    margin: 10px!important;
+}
+.magaza-ozellik img{
+    display: inline-block;
+    width: 60px;
+}
+.button{
+    width: 200px;
+    height: 40px;
+    border: 1px solid orange;
+    margin-top: 25px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color:orange;
+}
+.button .fa-gift{
+    color:orange;
+    margin-right: 5px;
+}
+.orta{
+    background-color: white!important;
+}
+.fa-tag{
+    color:orange;
+    margin-right: 5px;
+}
+.fa-box{
+    color:orange;
+    margin-right: 5px;
+}
+.fa-message{
+    color:orange;
+    margin-right: 5px;
+}
+.fa-shop{
+    color:orange;
+    margin-right: 5px;
+}
+.magaza-ozellik .zaman{
+    display: inline;
+}
+.fa-truck{
+    display: inline;
+}
+
