@@ -324,14 +324,34 @@ input[type=text]:focus {
     align-items: center;
     border: 1px solid rgb(239, 236, 236);
     border-radius: 5px;
-    height: 200px;
+    height: fit-content;
     width: 95%;
     margin:8px auto;
-    background-color: rgb(253, 242, 220);
+    background-color: rgb(252, 248, 240);
 }
 .right-bar-top div{
     font-size: 12px;
     display: flex;
+    margin:10px 10px;
+}
+.fa-chevron-right{
+    color: orange;
+    margin-right: 0px;
+}
+    
+.tukeniyor{
+    display: flex;
     justify-content: center;
-    align-items: center;
+    width: 200px;
+
+}
+.tukeniyor .kutucuk{
+    width: 30px;
+    height: 30px;
+    margin:0;
+}
+.tukeniyor img{
+    width: 40px;
+    height: 40px;
+
 }
