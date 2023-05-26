@@ -531,7 +531,7 @@ input[type=text]:focus {
     align-items: center;
     justify-content: space-evenly;
 }
-.fa-heart{
+.button-heart .fa-heart{
     font-size:32px;
     border: 1px solid rgb(212, 207, 207);
     padding: 3px;
